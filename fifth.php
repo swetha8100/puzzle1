@@ -5,7 +5,7 @@ if(isset($_POST['user_answer'])) {
   $answer = $_POST['user_answer'];
   
   // check if the answer is correct
-  if($answer == '25') {
+  if($answer == '15') {
     // redirect to the second question
     header('Location: sixth.php');
     exit;
